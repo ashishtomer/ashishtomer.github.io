@@ -1,0 +1,139 @@
+body {
+    padding-bottom: 10%;
+}
+
+div.my-photo-bg img {
+    width: 100%;
+}
+
+div.container-fluid {
+    /* border: 1px solid red; */
+}
+
+div.row {
+    padding: 0;
+}
+
+div.col-lg-4, img.img-fluid  {
+    padding: 0;
+}
+
+
+body {
+    position: relative;
+}
+
+div.welcome {
+    padding-top: 5%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    margin: auto;
+    color: #fff;
+}
+
+div.welcome div {
+    display: inline-block;
+    padding: 0;
+}
+
+@media only screen and (min-width: 551px) {
+    div.welcome {
+      font-size: 76px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    div.welcome {
+      font-size: 52px;
+    }
+}
+
+/* div.about p {
+    margin-top: 3%;
+} */
+
+div.about, div.hobbies, div.skills, div.contact {
+    padding: 5% 10% 0% 10%;
+}
+
+p.about-line, div.hobbies div.row, div.skills div.row, div.contact div.row {
+    padding: 3%;
+}
+
+div.about > h2, div.hobbies > h2, div.skills > h2, div.contact > h2 {
+    display: inline;
+    color: #fff;
+    font-weight: bolder;
+    padding: 0.3%;
+}
+
+div.hobbies div.col-sm-3 {
+    text-align: center;
+}
+
+div.hobbies div.col-sm-3 img {
+    height: 110px;
+}
+
+div.hobbies div.col-sm-3 p {
+    display: block;
+    margin-top: 5%;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffdd;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+div.skills div.row div.col-lg-2 {
+    padding: 1%;
+    display: table;
+}
+
+div.skills div.row div.color1 {
+    background-color: #FFC0C7; 
+}
+
+div.skills div.row div.color2 {
+    background-color: #FFF4A3; 
+}
+
+div.skills div.row div.color4 {
+    background-color: #F3ECEA; 
+}
+
+div.skills div.row div.color5 {
+    background-color: #D9EEE1; 
+}
+
+div.skills div.row div.color6 {
+    background-color: #96D4D4; 
+}
+
+div.skills div.row div.color7 {
+    background-color: #96D4D4; 
+}
+
+div.skills div.row div.color8 {
+    background-color: #FFC0C7; 
+}
+
+div.skills div.row div.color9 {
+    background-color: #04AA6D;
+    color: #fff;
+}
+
+div.skills div.row p {
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.contact div.row a, div.contact div.row a:visited {
+    text-decoration: none;
+    color: #0080ff;
+    font-size: 18px;
+}
