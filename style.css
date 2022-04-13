@@ -130,6 +130,12 @@ div.skills div.row p {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    min-height: 200px;
+    padding: 5%;
+}
+
+div.skills div.row div {
+    border: 1px solid #fff;
 }
 
 div.contact div.row a, div.contact div.row a:visited {
